@@ -176,7 +176,7 @@ class _MovieEditScreenState extends State<MovieEditScreen> {
   }
 
   getImage(ImageSource imageSource) async {
-    PickedFile imageFile = await picker.getImage(source: imageSource);
+    PickedFile imageFile = await  picker.getImage(source: imageSource);
     if (imageFile == null) return;
     File tmpFile = File(imageFile.path);
     final appDir = await getApplicationDocumentsDirectory();

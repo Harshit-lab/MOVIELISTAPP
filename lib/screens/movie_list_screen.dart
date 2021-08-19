@@ -72,7 +72,7 @@ class MovieListScreen extends StatelessWidget {
           '',
           style: headerRideStyle,),
           Text(
-            'Movies',
+            'MOVIES',
             style: headerNotesStyle,
             ),
         ],
